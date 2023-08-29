@@ -1,0 +1,22 @@
+name: snowqueen
+description: KaiOS without any pain.
+version: 1.0.0
+repository: https://github.com/breitburg/snowqueen
+
+environment:
+  sdk: ^3.1.0
+
+dependencies:
+  archive: ^3.3.7
+  args: ^2.4.2
+  http: ^1.1.0
+
+dev_dependencies:
+  lints: ^2.0.0
+
+executables:
+  snowqueen:
+
+platforms:
+  macos:
+  linux:
