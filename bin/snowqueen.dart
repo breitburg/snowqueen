@@ -1,5 +1,5 @@
 import 'package:args/command_runner.dart';
-import 'package:snowqueen/commands/compile/compile.dart';
+import 'package:snowqueen/commands/compile.dart';
 
 void main(List<String> arguments) {
   final runner = CommandRunner(
