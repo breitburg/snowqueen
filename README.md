@@ -4,16 +4,10 @@ Current KaiOS development experience is not very good. This project aims to impr
 
 ## Getting Started
 
-To create your first project run the following command:
-
-```console
-snowqueen create my_app
-```
-
-This will create a new project in the `my_app` directory. To compile it to a KaiOS app run:
+To compile your Dart code to a KaiOS app run:
 
 ```console
 snowqueen compile kaios2
 ```
 
-This will create a `build` directory with the compiled app.
+This will create an `app_name.zip` file with your compiled app bundle.

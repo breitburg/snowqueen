@@ -1,5 +1,5 @@
 import 'package:args/command_runner.dart';
-import 'package:snowqueen/kaios2/command.dart';
+import 'package:snowqueen/toolkit/kaios2/command.dart';
 
 class CompileCommand extends Command {
   @override

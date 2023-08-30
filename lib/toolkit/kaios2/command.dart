@@ -5,7 +5,7 @@ import 'package:args/command_runner.dart';
 import 'package:cli_spinner/cli_spinner.dart';
 import 'package:http/http.dart';
 import 'package:archive/archive_io.dart';
-import 'package:snowqueen/kaios2/manifest.dart';
+import 'package:snowqueen/toolkit/kaios2/manifest.dart';
 
 class CompileKaiOS2Command extends Command {
   @override

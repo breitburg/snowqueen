@@ -1,5 +1,6 @@
 import 'package:args/command_runner.dart';
-import 'package:snowqueen/commands/compile.dart';
+import 'package:snowqueen/toolkit/commands/compile.dart';
+import 'package:snowqueen/toolkit/commands/create.dart';
 
 void main(List<String> arguments) {
   final runner = CommandRunner(
@@ -8,6 +9,7 @@ void main(List<String> arguments) {
   );
 
   runner.addCommand(CompileCommand());
+  runner.addCommand(CreateCommand());
 
   runner.run(arguments);
 }
